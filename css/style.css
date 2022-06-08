@@ -359,7 +359,7 @@ a {
     border-color: black;
     border-width: 5px;
     padding: 10px;
-    width: 75%;
+    width: 80%;
     margin: 100px;
 }
 
@@ -619,12 +619,12 @@ a {
 @media screen and (max-width: 600px) {
 
     .box {
-        width: 400px;
+        width: 380px;
         height: 250px;
     }
 
     .juegosFotos .box img {
-        width: 360px;
+        width: 340px;
         height: 180px;
     }
 
@@ -635,9 +635,30 @@ a {
 }
 
 /* --------- MEDIA QUERIES Support---------- */
+@media screen and (max-width: 815px) {
+    .cuadroBlancoSupport {
+        min-width: 400px;
+    }
+}
 
+@media screen and (max-width: 450px) {
+    .cuadroBlancoSupport {
+        min-width: 350px;
+    }
+}
 
 /* --------- MEDIA QUERIES About---------- */
-
+@media screen and (max-width: 550px) {
+    .cuadroBlancoAbout {
+        min-width: 350px;
+    }
+}
 
 /* --------- MEDIA QUERIES Perfil---------- */
+@media screen and (max-width: 700px) {
+    .cuadroBlancoPerfil {
+        min-width: 350px;
+    }
+}
+
+
