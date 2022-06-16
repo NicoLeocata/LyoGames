@@ -38,13 +38,6 @@ a {
 
 /* --------- HEADER HTML ---------- */
 .header {
-    display: flex;
-    background-color: black;
-    color: gold;
-    padding: 10px;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
     width: 100%;
     position: fixed;
     top: 0;
@@ -53,30 +46,63 @@ a {
     justify-content: flex-start;
 }
 
-.logo {
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar-brand {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-
 }
 
-.logo h1 {
+.navbar-brand h1 {
     font-family: 'Press Start 2P', cursive;
+    color: gold;
 }
 
-.logo img {
+.navbar-brand img {
     margin: 10px;
     width: 50px;
 }
 
-.menu {
-    display: flex;
-    list-style: none;
-    padding: 10px;
+.navbar-toggler {
+    background-color: gold;
+    color: gold;
+    border-width: 2px;
+    border-color: #000000;
+    background: none;
 }
 
-.menu li a:hover {
+.navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler-icon i {
+    font-size: xx-large;
+    color: gold;
+}
+
+.navbar-nav a{
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 5px;
+    font-size: medium;
+}
+
+.navbar-nav a {
+    border-radius: 15px;
+}
+
+.navbar-nav li a:hover {
     padding: 5px 10px;
     background-color: whitesmoke;
     color: black;
@@ -85,20 +111,12 @@ a {
     transition: all 0.5s ease;
 }
 
-.menu a {
-    margin: 10px;
-    color: whitesmoke;
-    font-family: 'Gloria Hallelujah', cursive;
-}
-
-
-
 
 
 
 /* --------- MAIN HTML ---------- */
 .main {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 
@@ -531,7 +549,7 @@ a {
     }
 
     .main {
-        margin-top: 140px;
+        margin-top: 100px;
     }
 
     .grupo-1 {
