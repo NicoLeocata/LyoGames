@@ -127,15 +127,15 @@ a {
 
 /* --------- INICIO FOTO JUEGO HTML ---------- */
 .fotosMenu {
-    background-color: aqua;
+    background-color: black;
     width: 100%;
 }
-
-/* .main  */
 
 .fotosMenu img {
     width: 100%;
 }
+
+
 
 
 /* --------- INICIO NOTICIAS HTML ---------- */
@@ -615,6 +615,13 @@ a {
         width: 500px;
         padding: 10px;
     }
+}
+
+@media screen and (min-width: 1530px) {
+
+.fotosMenu img {
+    height: 850px;
+}
 }
 
 /* --------- MEDIA QUERIES Games---------- */
