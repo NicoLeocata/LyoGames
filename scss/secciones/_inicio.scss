@@ -1,0 +1,133 @@
+.fotosMenu {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    justify-content: center;
+    padding: 15px;
+    background-color: black;
+    &__titulo {
+        padding: 15px;
+        text-align: center;
+        font-size: 40px;
+        margin: 0;
+        font-family: 'Archivo Black', sans-serif;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    &__1 {
+        width: 30rem;
+        padding: 10px;
+        img {
+            width: 100%;
+        }
+    }
+    &__2 {
+        width: 30rem;
+        padding: 10px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.comunidad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    padding: 15px;
+    background-color: gold;
+    &__titulo {
+        padding: 15px;
+        text-align: center;
+        font-size: 40px;
+        margin: 0;
+        font-family: 'Archivo Black', sans-serif;
+        background-color: gold;
+        color: black;
+    }
+    &__1 {
+        width: 30rem;
+        padding: 10px;
+        img {
+            width: 100%;
+        }
+    }
+    &__2 {
+        width: 30rem;
+        padding: 10px;
+        img {
+            width: 100%;
+        }
+    }
+    &__3 {
+        width: 30rem;
+        padding: 10px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 815px) {
+
+    .noticias {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .noticias__titulo {
+        font-size: 30px;
+    }
+
+    .noticias__1 {
+        width: 500px;
+        padding: 10px;
+    }
+
+    .noticias__2 {
+        width: 500px;
+        padding: 10px;
+    }
+
+    .comunidad {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .comunidad__titulo {
+        font-size: 30px;
+    }
+
+    .comunidad__1 {
+        width: 500px;
+        padding: 10px;
+    }
+
+    .comunidad__2 {
+        width: 500px;
+        padding: 10px;
+    }
+
+    .comunidad__3 {
+        width: 500px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1530px) {
+
+    .fotosMenu img {
+        height: 850px;
+    }
+    }
