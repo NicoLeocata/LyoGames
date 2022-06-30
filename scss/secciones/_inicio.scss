@@ -77,6 +77,15 @@
     }
 }
 
+
+
+@media screen and (min-width: 1530px) {
+
+    .fotosMenu img {
+        height: 850px;
+    }
+}
+
 @media screen and (max-width: 815px) {
 
     .noticias {
@@ -125,9 +134,16 @@
     }
 }
 
-@media screen and (min-width: 1530px) {
+@media screen and (max-width: 475px) {
+    .noticias {
+        &__titulo {
+            font-size: 1.5rem;
+        }
+    }
 
-    .fotosMenu img {
-        height: 850px;
+    .comunidad {
+        &__titulo {
+            font-size: 1.5rem;
+        }
     }
-    }
+}

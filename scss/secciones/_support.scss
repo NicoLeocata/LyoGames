@@ -23,7 +23,6 @@
         padding-bottom: 10px;
         text-align: center;
         font-family: 'Press Start 2P', cursive;
-        font-size: 2rem;
     }
 
     .contacto-1 {
@@ -74,5 +73,11 @@
 @media screen and (max-width: 450px) {
     .support__box {
         min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .support__box {
+        min-width: 300px;
     }
 }
