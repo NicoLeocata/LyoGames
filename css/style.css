@@ -280,6 +280,20 @@ a {
     height: 180px; } }
 
 @media screen and (max-width: 450px) {
+  .juegos__titulo h2 {
+    font-size: 40px; }
+  .containerBox {
+    width: 100%; }
+  .box__content {
+    width: 320px;
+    height: 225px; }
+    .box__content h3 {
+      font-size: 1.2rem; }
+  .juegos .box__content img {
+    width: 300px;
+    height: 160px; } }
+
+@media screen and (max-width: 375px) {
   .containerBox {
     width: 100%; }
   .box__content {
