@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    justify-content: flex-start;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+    h1 {
+        font-family: 'Press Start 2P', cursive;
+        color: gold;
+    }
+
+    img {
+        margin: 10px;
+        width: 50px;
+    }
+
+    a {
+        color: white;
+        font-family: 'Gloria Hallelujah', cursive;
+        margin: 10px;
+        font-size: medium;
+        border-radius: 15px;
+    }
+}
+
+.navbar-toggler {
+    background-color: gold;
+    color: gold;
+    border-width: 2px;
+    border-color: #000000;
+    background: none;
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        font-size: xx-large;
+        color: gold;
+    }
+}
+
+.navbar-nav {
+    a {
+        color: white;
+        font-family: 'Gloria Hallelujah', cursive;
+        margin: 10px;
+        font-size: medium;
+        border-radius: 15px;
+
+        &:hover {
+            padding: 5px 10px;
+            background-color: whitesmoke;
+            color: black;
+            font-weight: bold;
+            border-radius: 15px;
+            transition: all 0.5s ease;
+        }
+    }
+}
