@@ -94,3 +94,9 @@
         min-width: 350px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .perfil__box {
+        min-width: 300px;
+    }
+}

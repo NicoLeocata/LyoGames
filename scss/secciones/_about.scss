@@ -35,3 +35,9 @@
         min-width: 350px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .about__box {
+        min-width: 300px;
+    }
+}

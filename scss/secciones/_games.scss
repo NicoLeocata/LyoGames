@@ -93,6 +93,14 @@
 }
 
 @media screen and (max-width: 600px) {
+    .juegos {
+        &__titulo {
+            h2 {
+                font-size: 40px;
+            }
+        }
+    }
+
     .containerBox {
         width: 100%;
     }
@@ -105,5 +113,25 @@
     .juegos .box__content img {
         width: 340px;
         height: 180px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .containerBox {
+        width: 100%;
+    }
+
+    .box__content {
+        width: 280px;
+        height: 200px;
+
+        h3 {
+            font-size: 1rem;
+        }
+    }
+
+    .juegos .box__content img {
+        width: 250px;
+        height: 140px;
     }
 }
