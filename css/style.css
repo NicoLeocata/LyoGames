@@ -7,9 +7,59 @@
 a {
   text-decoration: none; }
 
+@font-face {
+  font-family: 'Pac Man';
+  src: url(/fonts/PAC-FONT.TTF) format("truetype"); }
+
+@font-face {
+  font-family: 'Halo';
+  src: url(/fonts/HALO____.TTF) format("truetype"); }
+
+@font-face {
+  font-family: 'Rubbb';
+  src: url(/fonts/RUBBBB__.TTF) format("truetype"); }
+
+@font-face {
+  font-family: 'Zero Velo';
+  src: url(/fonts/zerovelo.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Crackman';
+  src: url(/fonts/crackman.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Iomanoid';
+  src: url(/fonts/iomanoid.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Cotton Cloud';
+  src: url(/fonts/Cotton-Cloud.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'River Adventure';
+  src: url(/fonts/River-Adventurer.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Angels';
+  src: url(/fonts/Angels.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Oxygene1';
+  src: url(/fonts/OXYGENE1.TTF) format("truetype"); }
+
+@font-face {
+  font-family: 'Distorter';
+  src: url(/fonts/DistorterDemoRegular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Kids Cut';
+  src: url(/fonts/Kids-Cut.ttf) format("truetype"); }
+
 .about__titulo, .perfil .perfil__titulo--1, .perfil .perfil__titulo--2, .support__titulo {
   text-align: center;
-  font-family: 'Press Start 2P', cursive; }
+  font-family: 'River Adventure';
+  color: #000000;
+  font-size: 2.5rem; }
 
 .footer {
   background-color: black;
@@ -27,15 +77,19 @@ a {
       flex-wrap: wrap;
       padding: 10px;
       margin: 10px;
-      text-align: center; }
+      text-align: center;
+      align-items: center; }
       .footer__1 .sobreNosotros h4 {
         text-align: center;
-        font-size: 28px;
-        font-family: 'Volkhov', serif; }
+        font-size: 40px;
+        font-family: 'Iomanoid'; }
       .footer__1 .sobreNosotros ul {
+        max-width: 300px;
         padding: 0; }
       .footer__1 .sobreNosotros li {
-        display: inline; }
+        display: inline;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 0.8rem; }
     .footer__1 .logoFooter {
       width: 100px;
       height: 100px; }
@@ -48,8 +102,8 @@ a {
       text-align: center; }
       .footer__1 .redSocial h4 {
         text-align: center;
-        font-size: 28px;
-        font-family: 'Volkhov', serif; }
+        font-size: 40px;
+        font-family: 'Iomanoid'; }
       .footer__1 .redSocial ul {
         padding: 0; }
       .footer__1 .redSocial i {
@@ -89,17 +143,11 @@ a {
   flex-direction: row-reverse;
   flex-wrap: wrap; }
   .navbar-brand h1 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Pac Man';
     color: gold; }
   .navbar-brand img {
     margin: 10px;
     width: 50px; }
-  .navbar-brand a {
-    color: white;
-    font-family: 'Gloria Hallelujah', cursive;
-    margin: 10px;
-    font-size: medium;
-    border-radius: 15px; }
 
 .navbar-toggler {
   background-color: gold;
@@ -118,9 +166,9 @@ a {
 
 .navbar-nav a {
   color: white;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Kids Cut';
   margin: 10px;
-  font-size: medium;
+  font-size: 1.3rem;
   border-radius: 15px; }
   .navbar-nav a:hover {
     padding: 5px 10px;
@@ -190,8 +238,6 @@ a {
     padding: 10px;
     width: 80%;
     margin: 100px; }
-  .about__titulo {
-    font-size: 2rem; }
 
 @media screen and (max-width: 550px) {
   .about__box {
@@ -326,7 +372,7 @@ a {
     text-align: center;
     font-size: 40px;
     margin: 0;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Pac Man', cursive;
     background-color: #000000;
     color: #ffffff; }
   .noticias__1 {
@@ -352,7 +398,8 @@ a {
     text-align: center;
     font-size: 40px;
     margin: 0;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Pac Man', cursive;
+    font-weight: bold;
     background-color: gold;
     color: black; }
   .comunidad__1 {
@@ -495,6 +542,8 @@ a {
   .support__titulo {
     width: 100%;
     padding-bottom: 10px; }
+  .support__motivo h3 {
+    font-family: 'River Adventure'; }
   .support .contacto-1 {
     margin: 20px 0; }
     .support .contacto-1 input {

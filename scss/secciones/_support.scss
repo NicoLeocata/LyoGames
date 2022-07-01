@@ -24,6 +24,12 @@
         @extend %fontTitulo;
     }
 
+    &__motivo {
+        h3 {
+            font-family: 'River Adventure';
+        }
+    }
+
     .contacto-1 {
         margin: 20px 0;
 

@@ -23,21 +23,13 @@
     flex-wrap: wrap;
 
     h1 {
-        font-family: 'Press Start 2P', cursive;
+        font-family: 'Pac Man';
         color: gold;
     }
 
     img {
         margin: 10px;
         width: 50px;
-    }
-
-    a {
-        color: white;
-        font-family: 'Gloria Hallelujah', cursive;
-        margin: 10px;
-        font-size: medium;
-        border-radius: 15px;
     }
 }
 
@@ -63,9 +55,9 @@
 .navbar-nav {
     a {
         color: white;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Kids Cut';
         margin: 10px;
-        font-size: medium;
+        font-size: 1.3rem;
         border-radius: 15px;
 
         &:hover {
