@@ -22,7 +22,7 @@
     }
 
     &__titulo {
-        font-family: 'Press Start 2P', cursive;
+        @extend %fontTitulo;
         font-size: 2rem;
     }
 }

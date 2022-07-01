@@ -21,8 +21,7 @@
     }
     
     .perfil__titulo--1 {
-        text-align: center;
-        font-family: 'Press Start 2P', cursive;
+        @extend %fontTitulo;
     }
 
     .iniciarContent {
@@ -38,8 +37,7 @@
     }
 
     .perfil__titulo--2 {
-        text-align: center;
-        font-family: 'Press Start 2P', cursive;
+        @extend %fontTitulo;
     }
 
     .registroContent {
@@ -70,12 +68,8 @@
             flex-direction: column;
             gap: 20px;
             input {
-                width: 100%;
-                height: 30px;
-                background-color: #000000;
-                color: #ffffff;
-                border-color: #ffffff;
-                border-width: 2px;
+                @include button-save;
+                
                 &[type=submit]:hover {
                     background-color: gold;
                     color: #000000;

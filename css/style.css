@@ -7,6 +7,10 @@
 a {
   text-decoration: none; }
 
+.about__titulo, .perfil .perfil__titulo--1, .perfil .perfil__titulo--2, .support__titulo {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive; }
+
 .footer {
   background-color: black;
   color: white; }
@@ -187,7 +191,6 @@ a {
     width: 80%;
     margin: 100px; }
   .about__titulo {
-    font-family: 'Press Start 2P', cursive;
     font-size: 2rem; }
 
 @media screen and (max-width: 550px) {
@@ -426,9 +429,6 @@ a {
     border-width: 5px;
     padding: 10px;
     width: 50%; }
-  .perfil .perfil__titulo--1 {
-    text-align: center;
-    font-family: 'Press Start 2P', cursive; }
   .perfil .iniciarContent__1 {
     display: flex;
     flex-direction: column;
@@ -436,9 +436,6 @@ a {
     .perfil .iniciarContent__1 input {
       height: 30px;
       padding: 10px; }
-  .perfil .perfil__titulo--2 {
-    text-align: center;
-    font-family: 'Press Start 2P', cursive; }
   .perfil .registroContent__1 {
     display: flex;
     flex-direction: column;
@@ -497,9 +494,7 @@ a {
     margin: 180px; }
   .support__titulo {
     width: 100%;
-    padding-bottom: 10px;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive; }
+    padding-bottom: 10px; }
   .support .contacto-1 {
     margin: 20px 0; }
     .support .contacto-1 input {
