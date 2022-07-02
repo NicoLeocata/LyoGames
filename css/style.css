@@ -63,6 +63,18 @@ a {
   font-family: 'Half Melted';
   src: url(../fonts/HalfMeltedDemoRegular.ttf) format("truetype"); }
 
+@font-face {
+  font-family: 'Kopio';
+  src: url(../fonts/Kopio.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Fog Lighten 7';
+  src: url(../fonts/FoglihtenNo07.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'AMGaea';
+  src: url(../fonts/AMGaea.ttf) format("truetype"); }
+
 .about__titulo, .perfil .perfil__titulo--1, .perfil .perfil__titulo--2, .support__titulo {
   text-align: center;
   font-family: 'River Adventure';
@@ -496,8 +508,13 @@ a {
     flex-direction: column;
     gap: 20px; }
     .perfil .registroContent__1 input {
-      height: 30px;
-      padding: 10px; }
+      background: rgba(126, 126, 126, 0.1);
+      border: 2px solid rgba(126, 126, 126, 0.1);
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px; }
+    .perfil .registroContent__1 label {
+      font-family: 'AMGaea'; }
   .perfil .registroContent__2 {
     margin: 20px 0; }
   .perfil .registroContent__3 {
@@ -509,10 +526,10 @@ a {
       width: 100%; }
   .perfil .registroContent__5 {
     display: flex;
-    flex-direction: column;
-    gap: 20px; }
+    justify-content: center; }
     .perfil .registroContent__5 input {
-      width: 100%;
+      font-family: 'Kopio';
+      width: 50%;
       height: 30px;
       background-color: #000000;
       color: #ffffff;
@@ -555,21 +572,33 @@ a {
   .support .contacto-1 {
     margin: 20px 0; }
     .support .contacto-1 input {
+      background: rgba(126, 126, 126, 0.1);
+      border: 2px solid rgba(126, 126, 126, 0.1);
       width: 100%;
-      height: 30px;
-      padding: 10px; }
-  .support .contacto-2 {
-    margin: 20px 0; }
-    .support .contacto-2 textarea {
-      width: 100%; }
-  .support .contacto-3 input {
+      padding: 10px;
+      border-radius: 5px; }
+
+.contacto-2 {
+  margin: 20px 0; }
+  .contacto-2 textarea {
+    background: rgba(126, 126, 126, 0.1);
+    border: 2px solid rgba(126, 126, 126, 0.1);
+    border-radius: 5px;
     width: 100%;
+    padding: 10px; }
+
+.contacto-3 {
+  display: flex;
+  justify-content: center; }
+  .contacto-3 input {
+    font-family: 'Kopio';
+    width: 50%;
     height: 30px;
     background-color: #000000;
     color: #ffffff;
     border-color: #ffffff;
     border-width: 2px; }
-    .support .contacto-3 input[type=submit]:hover {
+    .contacto-3 input[type=submit]:hover {
       background-color: gold;
       color: #000000;
       border-color: #000000; }

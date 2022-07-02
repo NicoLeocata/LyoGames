@@ -34,32 +34,38 @@
         margin: 20px 0;
 
         input {
-            width: 100%;
-            height: 30px;
-            padding: 10px;
-        }
-    }
-
-    .contacto-2 {
-        margin: 20px 0;
-
-        textarea {
-            width: 100%;
-        }
-    }
-
-    .contacto-3 {
-        input {
-            @include button-save;
-
-            &[type=submit]:hover {
-                background-color: gold;
-                color: #000000;
-                border-color: #000000;
-            }
+            @include input-datos;
         }
     }
 }
+
+.contacto-2 {
+    margin: 20px 0;
+
+    textarea {
+        background: rgba(126, 126, 126, 0.1);
+        border: 2px solid rgba(126, 126, 126, 0.1);
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.contacto-3 {
+    display: flex;
+    justify-content: center;
+
+    input {
+        @include button-save;
+
+        &[type=submit]:hover {
+            background-color: gold;
+            color: #000000;
+            border-color: #000000;
+        }
+    }
+}
+
 
 
 

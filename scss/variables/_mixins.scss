@@ -1,8 +1,17 @@
 @mixin button-save {
-    width: 100%;
+    font-family: 'Kopio';
+    width: 50%;
     height: 30px;
     background-color: #000000;
     color: #ffffff;
     border-color: #ffffff;
     border-width: 2px;
+}
+
+@mixin input-datos {
+    background: rgba(126,126,126,0.1);
+    border: 2px solid rgba(126,126,126,0.1);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
 }

@@ -46,8 +46,10 @@
             flex-direction: column;
             gap: 20px;
             input {
-                height: 30px;
-                padding: 10px;
+                @include input-datos;
+            }
+            label {
+                font-family: 'AMGaea';
             }
         }
         &__2 {
@@ -65,8 +67,7 @@
         }
         &__5 {
             display: flex;
-            flex-direction: column;
-            gap: 20px;
+            justify-content: center;
             input {
                 @include button-save;
                 
