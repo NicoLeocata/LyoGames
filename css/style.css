@@ -55,6 +55,14 @@ a {
   font-family: 'Kids Cut';
   src: url(../fonts/Kids-Cut.ttf) format("truetype"); }
 
+@font-face {
+  font-family: 'Headline';
+  src: url(../fonts/Headlinetext.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Half Melted';
+  src: url(../fonts/HalfMeltedDemoRegular.ttf) format("truetype"); }
+
 .about__titulo, .perfil .perfil__titulo--1, .perfil .perfil__titulo--2, .support__titulo {
   text-align: center;
   font-family: 'River Adventure';
@@ -263,7 +271,7 @@ a {
       padding: 10px;
       border-style: solid;
       border-color: gold;
-      font-family: 'Righteous', cursive; }
+      font-family: 'Distorter'; }
 
 .containerBox {
   max-width: 1800px;
@@ -296,7 +304,7 @@ a {
     border-width: 1px; }
   .box__content h3 {
     margin-top: 15px;
-    font-family: 'Acme', sans-serif; }
+    font-family: 'Headline'; }
   .box__content:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 30px -15px rgba(255, 255, 255, 0.781);
