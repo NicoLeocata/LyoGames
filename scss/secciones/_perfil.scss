@@ -30,8 +30,7 @@
             flex-direction: column;
             gap: 20px;
             input {
-                height: 30px;
-                padding: 10px;
+                @include input-datos;
             }
         }
     }
