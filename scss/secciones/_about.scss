@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     height: auto;
-    
+
     &__box {
         display: flex;
         flex-wrap: wrap;
@@ -24,14 +24,83 @@
     &__titulo {
         @extend %fontTitulo;
     }
+
+    &__section {
+        width: 100%;
+        margin: 100px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    &__section--1 {
+        margin: 5px 20px;
+
+        h3 {
+            font-family: 'Press Start 2P', cursive;
+            color: black;
+            font-size: 1.6rem;
+        }
+    }
+
+    &__section--2 {
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        margin-top: 25px;
+
+        img {
+            width: 400px;
+        }
+
+        h3 {
+            font-family: 'Press Start 2P', cursive;
+            color: black;
+            font-size: 1.6rem;
+        }
+
+        &__caja {
+            margin: 20px 100px;
+        }
+    }
+
+    &__section--3 {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin: 5px;
+
+        img {
+            width: 500px;
+        }
+
+        h3 {
+            font-family: 'Press Start 2P', cursive;
+            color: black;
+            font-size: 1.6rem;
+        }
+
+        &__caja {
+            margin: 50px 100px;
+        }
+    }
 }
 
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 555px) {
     .about__box {
         min-width: 350px;
+    }
+
+    .about__section {
+        h3 {
+            font-size: 1.4rem;
+        }
+
+        img {
+            width: 300px;
+        }
     }
 }
 
@@ -39,4 +108,38 @@
     .about__box {
         min-width: 300px;
     }
+
+    .about__section {
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        img {
+            width: 250px;
+        }
+    }
 }
+
+@media screen and (max-width: 1600px) {
+    .about__section--2 {
+        flex-direction: column-reverse;
+        &__caja {
+            margin: 0;
+            margin: 5px 20px;
+        }
+    }
+
+    .about__section--3 {
+        flex-direction: column-reverse;
+        &__caja {
+            margin: 0;
+            margin: 5px 20px;
+            margin-top: 20px;
+
+            h3 {
+
+            }
+        }
+    }
+}
+

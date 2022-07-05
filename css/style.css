@@ -75,6 +75,10 @@ a {
   font-family: 'AMGaea';
   src: url(../fonts/AMGaea.ttf) format("truetype"); }
 
+@font-face {
+  font-family: 'Anonymus';
+  src: url(../fonts/AnonymousPro-Regular.ttf) format("truetype"); }
+
 .about__titulo, .perfil .perfil__titulo--1, .perfil .perfil__titulo--2, .support__titulo {
   text-align: center;
   font-family: 'River Adventure';
@@ -258,14 +262,72 @@ a {
     padding: 10px;
     width: 80%;
     margin: 100px; }
+  .about__section {
+    width: 100%;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .about__section--1 {
+    margin: 5px 20px; }
+    .about__section--1 h3 {
+      font-family: 'Press Start 2P', cursive;
+      color: black;
+      font-size: 1.6rem; }
+  .about__section--2 {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-top: 25px; }
+    .about__section--2 img {
+      width: 400px; }
+    .about__section--2 h3 {
+      font-family: 'Press Start 2P', cursive;
+      color: black;
+      font-size: 1.6rem; }
+    .about__section--2__caja {
+      margin: 20px 100px; }
+  .about__section--3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 5px; }
+    .about__section--3 img {
+      width: 500px; }
+    .about__section--3 h3 {
+      font-family: 'Press Start 2P', cursive;
+      color: black;
+      font-size: 1.6rem; }
+    .about__section--3__caja {
+      margin: 50px 100px; }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 555px) {
   .about__box {
-    min-width: 350px; } }
+    min-width: 350px; }
+  .about__section h3 {
+    font-size: 1.4rem; }
+  .about__section img {
+    width: 300px; } }
 
 @media screen and (max-width: 400px) {
   .about__box {
-    min-width: 300px; } }
+    min-width: 300px; }
+  .about__section h3 {
+    font-size: 1.2rem; }
+  .about__section img {
+    width: 250px; } }
+
+@media screen and (max-width: 1600px) {
+  .about__section--2 {
+    flex-direction: column-reverse; }
+    .about__section--2__caja {
+      margin: 0;
+      margin: 5px 20px; }
+  .about__section--3 {
+    flex-direction: column-reverse; }
+    .about__section--3__caja {
+      margin: 0;
+      margin: 5px 20px;
+      margin-top: 20px; } }
 
 .juegos {
   background-color: #111111;
@@ -315,8 +377,9 @@ a {
     border-style: solid;
     border-width: 1px; }
   .box__content h3 {
-    margin-top: 15px;
-    font-family: 'Headline'; }
+    margin-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem; }
   .box__content:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 30px -15px rgba(255, 255, 255, 0.781);
